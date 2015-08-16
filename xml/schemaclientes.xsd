@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="clientes">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="cliente" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="cliente">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="idcliente"/>
+				<xsd:element ref="empresa"/>
+				<xsd:element ref="contacto"/>
+				<xsd:element ref="ciudad"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="contacto">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="telefono"/>
+				<xsd:element ref="correo"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="correo" type="xsd:string"/>
+	<xsd:element name="empresa" type="xsd:string"/>
+	<xsd:element name="ciudad" type="xsd:string"/>
+	<xsd:element name="telefono" type="xsd:string"/>
+	<xsd:element name="idcliente" type="xsd:string"/>
+</xsd:schema>

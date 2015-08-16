@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="informacion">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="alumno" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="alumno">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="nombre"/>
+				<xsd:element ref="edad"/>
+				<xsd:element ref="fechanac"/>
+				<xsd:element ref="direccion"/>
+				<xsd:element ref="email"/>
+				<xsd:element ref="curso"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="direccion" type="xsd:string"/>
+	<xsd:element name="edad" type="xsd:string"/>
+	<xsd:element name="curso" type="xsd:string"/>
+	<xsd:element name="email" type="xsd:string"/>
+	<xsd:element name="nombre" type="xsd:string"/>
+	<xsd:element name="fechanac" type="xsd:string"/>
+</xsd:schema>

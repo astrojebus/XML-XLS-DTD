@@ -1,0 +1,8 @@
+<!ELEMENT informacion (alumno+)>
+<!ELEMENT	alumno (nombre,edad,fechanac,direccion,email,curso)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT fechanac (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="empleado">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="nombre"/>
+				<xsd:element ref="apellidos"/>
+				<xsd:element ref="edad"/>
+				<xsd:element ref="fechaNac"/>
+				<xsd:element ref="direccion"/>
+				<xsd:element ref="email"/>
+				<xsd:element ref="curso"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="empleados">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="empleado" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="direccion" type="xsd:string"/>
+	<xsd:element name="edad">
+	
+		<xsd:simpleType>
+		<xsd:restriction base="xsd:integer">
+		<xsd:minInclusive value="0"/>
+		<xsd:maxInclusive value="100"/>
+		</xsd:restriction>
+		</xsd:simpleType>
+		
+	</xsd:element>
+	
+	<xsd:element name="curso">
+	
+		<xsd:simpleType>
+		<xsd:restriction base="xsd:integer">
+		<xsd:minInclusive value="1"/>
+		<xsd:maxInclusive value="10"/>
+		</xsd:restriction>
+		</xsd:simpleType>
+		
+	</xsd:element>
+	
+	<xsd:element name="email" type="emailAddress"/>
+	<xsd:simpleType name="emailAddress"> 
+    <xsd:restriction base="xsd:string"> 
+    <xsd:pattern value="[^@]+@[^\.]+\..+"/> 
+    </xsd:restriction> 
+ 	</xsd:simpleType> 
+	
+	<xsd:element name="apellidos" type="xsd:string"/>
+	<xsd:element name="nombre" type="xsd:string"/>
+	<xsd:element name="fechaNac" type="xsd:date"/>
+</xsd:schema>

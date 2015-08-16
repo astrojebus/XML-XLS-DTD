@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<informacion xmlns="http://your_namespace"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://your_namespace
+				C:\Users\Jesus\Dropbox\Nuevas%20Tecnicas%20de%20Programacion\Netbeans\xml\SCHEMAALUMNOS.xsd">
+
+</informacion>
+
+
+<informacion>
+<alumno>
+	<nombres> Alumno 1 </nombres>
+	<edad> Apellido 1</edad>
+	<fechanac> 17-1-2222</fechanac>
+	<direccion> Direccion 1</direccion>
+	<email> 33</email>
+	<curso>d</curso>
+	
+</alumno>
+
+<alumno>
+	<nombres> Alumno 2 </nombres>
+	<edad> Apellido 2</edad>
+	<fechanac> 17-1-2222</fechanac>
+	<direccion> Direccion 2</direccion>
+	<email> gdf@fds.com</email>
+	<curso>d</curso>
+</alumno>
+<alumno>
+	<nombres> Alumno 3 </nombres>
+	<edad> Apellido 3</edad>
+	<fechanac> 17-1-2222</fechanac>
+	<direccion> Direccion 3</direccion>
+	<email> fsdfsd@fsdf.com</email>
+	<curso>d</curso>
+</alumno>
+<alumno>
+	<nombres> Alumno 4 </nombres>
+	<edad> Apellido 4</edad>
+	<fechanac> 17-1-2222</fechanac>
+	<direccion> Direccion 4</direccion>
+	<email> gfd@dffs.com</email>
+	<curso>d</curso>
+</alumno>
+<alumno>
+<nombres> Alumno 5 </nombres>
+	<edad> Apellido 5</edad>
+	<fechanac> 17-1-2222</fechanac>
+	<direccion> Direcion 5</direccion>
+	<email> fgdfgdf@fsdf.com </email>
+	<curso>s</curso>
+	
+</alumno>
+<alumno>
+<nombres> Alumno 6 </nombres>
+	<edad> Apellido 6</edad>
+	<fechanac> 17-1-2222</fechanac>
+	<direccion> Direccion 6</direccion>
+	<email> dfgdg@sfsd.com</email>
+	<curso>s</curso>
+	
+</alumno>
+
+</informacion>

@@ -1,0 +1,9 @@
+<!ELEMENT empleados (empleado*)>
+<!ELEMENT empleado (nombre, apellidos, edad, fechaNac, direccion, email, curso)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT fechaNac (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>

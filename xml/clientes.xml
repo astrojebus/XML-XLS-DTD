@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE clientes SYSTEM "C:\Users\Jesus\Dropbox\Nuevas Tecnicas de Programacion\Netbeans\xml\CLIENTESDTD.dtd">
+
+
+<clientes>
+
+<cliente>
+<idcliente>1</idcliente>
+<empresa>PUCESE</empresa>
+<contacto>
+	<telefono>9898</telefono>
+	<correo>dsfsdwdsf</correo>
+</contacto>
+<ciudad>Esmeraldas</ciudad>
+</cliente>
+
+<cliente>
+<idcliente>2</idcliente>
+<empresa>PUCE</empresa>
+<contacto>
+	<telefono>2232323</telefono>
+	<correo>dsfsdwdsf</correo>
+</contacto>
+<ciudad>Quito</ciudad>
+</cliente>
+
+
+
+
+
+
+</clientes>

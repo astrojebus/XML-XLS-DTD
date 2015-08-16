@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="C:\Users\Jesus\Dropbox\Nuevas Tecnicas de Programacion\Netbeans\xml\notasSISTEMAS.xsl"?>
+
+<notas>
+<alumno escuela='is'>
+	<nombre> bbbb </nombre>
+	<apellidos>hgh </apellidos>
+	<num> is3</num>
+	<teorica> 12</teorica>
+	<final> 33</final>
+	
+</alumno>
+
+<alumno escuela='is'>
+	<nombre> Cavcbcvb </nombre>
+	<apellidos> aaaaa </apellidos>
+	<num> is3</num>
+	<teorica> 12</teorica>
+	<final> 33</final>
+	
+</alumno>
+<alumno escuela='is'>
+	<nombre> Carlos </nombre>
+	<apellidos> Alvarado </apellidos>
+	<num> is3</num>
+	<teorica> 12</teorica>
+	<final> 33</final>
+	
+</alumno>
+<alumno escuela='is'>
+	<nombre> Cartrte </nombre>
+	<apellidos> sfsdf</apellidos>
+	<num> is3</num>
+	<teorica> 12</teorica>
+	<final> 33</final>
+	
+</alumno>
+<alumno escuela='ho'>
+	<nombre> hhhh</nombre>
+	<apellidos> uuuu </apellidos>
+	<num> is3</num>
+	<teorica> 12</teorica>
+	<final> 33</final>
+	
+</alumno>
+<alumno escuela='ho'>
+	<nombre> llll</nombre>
+	<apellidos> mmm</apellidos>
+	<num> is3</num>
+	<teorica> 12</teorica>
+	<final> 33</final>
+	
+</alumno>
+
+</notas>

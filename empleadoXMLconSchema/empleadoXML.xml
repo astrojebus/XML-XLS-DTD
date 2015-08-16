@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<empleados
+xmlns="http://your_namespace"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://your_namespace
+				C:\Users\Jesus\Desktop\empleadoXMLconSchema\empleadoSchema.xsd">
+	<empleado>
+		<nombre>Juan</nombre>
+		<apellidos>Cortes</apellidos>
+		<edad>24</edad>
+		<fechaNac>1991-08-10</fechaNac>
+		<direccion>Esmeraldas</direccion>
+		<email>erer@hotmail.com</email>
+		<curso>6</curso>
+	</empleado>
+	
+	<empleado>
+		<nombre>Manuel</nombre>
+		<apellidos>Tello</apellidos>
+		<edad>34</edad>
+		<fechaNac>1988-04-16</fechaNac>
+		<direccion>Quito</direccion>
+		<email>email2@hotmail.com</email>
+		<curso>3</curso>
+	</empleado>
+	<empleado>
+		<nombre>Rosa</nombre>
+		<apellidos>MMM</apellidos>
+		<edad>25</edad>
+		<fechaNac>1999-05-10</fechaNac>
+		<direccion>Esmeraldas</direccion>
+		<email>mmmm1@hotmail.com</email>
+		<curso>5</curso>
+	</empleado>
+	<empleado>
+		<nombre>Cesas</nombre>
+		<apellidos>Larrea</apellidos>
+		<edad>22</edad>
+		<fechaNac>1986-05-10</fechaNac>
+		<direccion>Esmeraldas</direccion>
+		<email>gemail1@hotmail.com</email>
+		<curso>8</curso>
+	</empleado>
+	<empleado>
+		<nombre>Andrea</nombre>
+		<apellidos>Velez</apellidos>
+		<edad>34</edad>
+		<fechaNac>1993-03-04</fechaNac>
+		<direccion>Esmeraldas</direccion>
+		<email>geee3@hotmail.com</email>
+		<curso>8</curso>
+	</empleado>
+	<empleado>
+		<nombre>Raul</nombre>
+		<apellidos>Cartillo</apellidos>
+		<edad>34</edad>
+		<fechaNac>1987-05-17</fechaNac>
+		<direccion>Esmeraldas</direccion>
+		<email>mmmm@hotmail.com</email>
+		<curso>4</curso>
+	</empleado>
+</empleados>

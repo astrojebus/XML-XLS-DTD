@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<materias>
+    <materia>
+        <codigo>IS001</codigo>
+        <nombre>FISICA</nombre>
+        <docente>Docente</docente>
+    </materia>
+      <materia>
+        <codigo>IS002</codigo>
+        <nombre>matemáticas</nombre>
+        <docente>Docente</docente>
+    </materia>
+</materias>
