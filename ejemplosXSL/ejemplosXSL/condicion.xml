@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="condicion.xsl"?>
+
+<notas>
+  <alumno escuela="IS">
+ 		<nombres>Carlos</nombres>
+ 		<apellidos>Alvarado</apellidos>
+ 		<num-matricula>1581</num-matricula>
+ 		<nota-teorica>10.0</nota-teorica>
+ 		<nota-practica>9.5</nota-practica>
+ 		<nota-final>8.0</nota-final> 
+  </alumno>
+   <alumno escuela="IS">
+ 		<nombres>Pedro</nombres>
+ 		<apellidos>Posligua</apellidos>
+ 		<num-matricula>1582</num-matricula>
+ 		<nota-teorica>10.0</nota-teorica>
+ 		<nota-practica>10.0</nota-practica>
+ 		<nota-final>10.0</nota-final> 
+  </alumno> 
+  <alumno escuela="IS">
+ 		<nombres>Martha</nombres>
+ 		<apellidos>López</apellidos>
+ 		<num-matricula>1583</num-matricula>
+ 		<nota-teorica>6.0</nota-teorica>
+ 		<nota-practica>8.5</nota-practica>
+ 		<nota-final>5.0</nota-final> 
+  </alumno>
+    <alumno escuela="IS">
+ 		<nombres>Ana</nombres>
+ 		<apellidos>Perea</apellidos>
+ 		<num-matricula>1584</num-matricula>
+ 		<nota-teorica>6.0</nota-teorica>
+ 		<nota-practica>9.5</nota-practica>
+ 		<nota-final>9.0</nota-final> 
+  </alumno>
+     <alumno escuela="HO">
+ 		<nombres>Mario</nombres>
+ 		<apellidos>De Jesús</apellidos>
+ 		<num-matricula>1585</num-matricula>
+ 		<nota-teorica>10.0</nota-teorica>
+ 		<nota-practica>7.5</nota-practica>
+ 		<nota-final>5.0</nota-final> 
+  </alumno> 
+     <alumno escuela="HO">
+ 		<nombres>Andrés</nombres>
+ 		<apellidos>Pérez</apellidos>
+ 		<num-matricula>1586</num-matricula>
+ 		<nota-teorica>9.5</nota-teorica>
+ 		<nota-practica>9.5</nota-practica>
+ 		<nota-final>9.0</nota-final> 
+  </alumno> 
+  
+</notas>
+

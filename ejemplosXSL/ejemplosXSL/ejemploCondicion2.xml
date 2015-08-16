@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="ejemploCondicion2.xsl"?>
+
+<notas>
+<alumno escuela="SISTEMAS">
+	<nombres>Carlos</nombres>
+	<apellidos>Caicedo</apellidos>
+	<num-matricula>0001</num-matricula>
+	<nota-teorica>8.0</nota-teorica>
+	<nota-practica>9.5</nota-practica>
+	<nota-final>7.5</nota-final>
+</alumno>
+<alumno escuela="SISTEMAS">
+	<nombres>Carolina</nombres>
+	<apellidos>Ramos</apellidos>
+	<num-matricula>0002</num-matricula>
+	<nota-teorica>9.1</nota-teorica>
+	<nota-practica>8.5</nota-practica>
+	<nota-final>7.5</nota-final>
+</alumno>
+<alumno escuela="SISTEMAS">
+	<nombres>María</nombres>
+	<apellidos>Cevallos</apellidos>
+	<num-matricula>0003</num-matricula>
+	<nota-teorica>8.0</nota-teorica>
+	<nota-practica>9.5</nota-practica>
+	<nota-final>9.5</nota-final>
+</alumno>
+<alumno escuela="SISTEMAS">
+	<nombres>Xavier</nombres>
+	<apellidos>Hidalgo</apellidos>
+	<num-matricula>0004</num-matricula>
+	<nota-teorica>9.5</nota-teorica>
+	<nota-practica>8.5</nota-practica>
+	<nota-final>7.5</nota-final>
+</alumno>
+<alumno escuela="HOTELERIA">
+	<nombres>Alex</nombres>
+	<apellidos>Castro</apellidos>
+	<num-matricula>0005</num-matricula>
+	<nota-teorica>9.5</nota-teorica>
+	<nota-practica>9.5</nota-practica>
+	<nota-final>8.5</nota-final>
+</alumno>
+<alumno escuela="HOTELERIA">
+	<nombres>Liliana</nombres>
+	<apellidos>Orejuela</apellidos>
+	<num-matricula>0014</num-matricula>
+	<nota-teorica>9.5</nota-teorica>
+	<nota-practica>8.0</nota-practica>
+	<nota-final>7.5</nota-final>
+</alumno>
+</notas>
+
